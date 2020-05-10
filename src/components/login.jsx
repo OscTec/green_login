@@ -11,13 +11,13 @@ class Login extends Component {
                 <p id="loginSubTitle">Getting starter with green</p>
                 <form>
                     <div className="form-group">
-                        <label htmlFor="email">Email Addess</label>
+                        <label className='label' htmlFor="email">Email Addess</label>
                         <input id="email" type="text" className="form-control" />
                     </div>
                     <div>
                         <div className="checkbox mb-3">
                             <input id="remeberDevice" type="checkbox" />
-                            <label htmlFor="remeberDevice">Remember this device</label>
+                            <label className='label' htmlFor="remeberDevice">Remember this device</label>
                         </div>
                         <div>
                             <button className="btn btn-outline-light text-dark" type="submit">Sign in</button>

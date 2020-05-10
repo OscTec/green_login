@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.css";
 import './fonts/Gotham-Book.woff2';
+import 'gotham-fonts/css/gotham-rounded.css'
 
 ReactDOM.render(
   <React.StrictMode>

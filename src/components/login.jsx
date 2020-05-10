@@ -6,7 +6,9 @@ class Login extends Component {
     render() {
         return (
             <div className="loginForm">
-                <img src={logo} id="logo" alt="logo" />
+                <div className='imageContainer'>
+                    <img src={logo} id="logo" alt="logo" />
+                </div>
                 <h1 id="loginTitle">Example Login Screen</h1>
                 <p id="loginSubTitle">Getting starter with green</p>
                 <form>
